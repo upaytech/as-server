@@ -1,0 +1,17 @@
+# compiled javascript files
+dist
+
+# packages
+node_modules
+
+# test coverage
+coverage
+
+# misc
+.DS_Store
+.env*
+
+npm-debug.log*
+
+# VIM swap files
+*.swp
