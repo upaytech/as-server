@@ -10,8 +10,9 @@
     "dev": "cross-env NODE_ENV=development concurrently --kill-others \"npm run watch-ts\" \"npm run watch-node\"",
     "watch-ts": "tsc -w",
     "lint": "eslint src/**/*",
-    "test:coverage": "jest --coverage",
-    "test": "jest --watch"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "license": "ISC",
   "husky": {
