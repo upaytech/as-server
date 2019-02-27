@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  web-server:
+    build: .
+    depends_on:
+      - postgres
+    ports:
+      - 9099:9099
+      - 9229:9229
+    command: npm run dev
+  postgres:
+    image: postgres:11.1-alpine
+    env_file: .env
