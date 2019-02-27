@@ -101,7 +101,7 @@ That's it, **thank you** for your contribution ❣
   * `chore(packages): add knex for sql quering`
   
 * The type should be one of the following:
-  * `build`: Changes that affect the build system or external dependencies
+  * `chore`: Changes that affect the build system or auxiliary tooling
   * `ci`: Changes to our CI configuration files and scripts
   * `docs`: Documentation only changes
   * `feat`: A new feature
