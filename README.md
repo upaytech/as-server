@@ -2,12 +2,19 @@
 
 ## Setting up
 
+* Ensure that you have [git](https://git-scm.com/downloads) on your machine.
+* Fork this [repository](https://github.com/upaytech/as-server) and branch off of the `develop` branch.
+* Install [docker](https://www.docker.com/get-started).
+* Run `docker-compose up` in the root of the project.
+
 ## Codebase
 
 * Go through the [package.json](./package.json) file initially. The `package.json` file has two important pieces of information:
   * Dependencies that our core code is dependent on.
   * Scripts that allow running of complicated scripts and commands with a short command.
 * The codebase of the application resides in the `src/` directory.
+
+[TODO: Elaborate this whole section more]
 
 ## Contributing
 
