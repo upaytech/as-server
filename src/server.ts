@@ -1,12 +1,8 @@
-import express from 'express';
-
+import http from 'http';
+import app from './app';
 import { PORT } from './config/constants';
 
-const app = express();
-
-const server = app.listen(
-  PORT,
-  () => console.log(`server started on port ${PORT}`) // eslint-disable-line
-);
+const server = http.createServer(app);
+server.listen(PORT);
 
 export default server;
