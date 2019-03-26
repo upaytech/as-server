@@ -5,6 +5,12 @@
 * Ensure that you have [git](https://git-scm.com/downloads) on your machine.
 * Fork this [repository](https://github.com/upaytech/as-server) and branch off of the `develop` branch.
 * Install [docker](https://www.docker.com/get-started).
+* .env file is needed for the credentials of the Postgres instance.
+  Create a .env file at the root of your project
+  With the following values:
+  POSTGRES_PASSWORD=password
+  POSTGRES_USER=upay
+  POSTGRES_DB=apnasamaan
 * Run `docker-compose up` in the root of the project.
 
 ## Codebase
