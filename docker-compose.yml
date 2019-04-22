@@ -12,6 +12,7 @@ services:
       - DB_HOST=postgres
       - DB_USER=upay
       - DB_NAME=apnasamaan
+      - DB_PASSWORD=password
     command: npm run dev
   postgres:
     image: postgres:11.1-alpine
